@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kickstand Cam Privacy Policy</title>
+  <meta name="description" content="Kickstand Cam runs no servers and collects no data. Video, recordings and scans stay between your iPhone and your own computer.">
+  <meta name="theme-color" content="#0d1016">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="../"><img src="../assets/icon-256.png" alt="" width="32" height="32">Kickstand Cam</a>
+    <ul class="nav-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="../setup/">Setup</a></li>
+      <li><a href="../support/">Support</a></li>
+      <li><a href="./" aria-current="page">Privacy</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- Source: docs/release/privacy-policy.md. Keep the two in step. Fill in [[date]] and [[contact email]] before publishing. -->
+<main id="main">
+  <div class="wrap page-head">
+    <h1>Privacy Policy</h1>
+    <p>Last updated: <span class="placeholder">[[date]]</span></p>
+  </div>
+
+  <div class="wrap article">
+    <div class="prose">
+      <p>Kickstand Cam turns your iPhone into a webcam, a camera monitor and a document scanner for your own Windows PC or Mac. Everything happens between your phone and your computer, over your local network or a USB cable. We run no servers, and nothing you capture is ever sent to us.</p>
+
+      <h2 id="data">What the apps do with your data</h2>
+      <ul>
+        <li><strong>Camera video</strong> goes directly from your iPhone to the computer you paired, over Wi-Fi or a USB cable, encrypted with TLS 1.3. In webcam mode it is shown as a camera on your computer and is not saved by Kickstand Cam.</li>
+        <li><strong>Camera monitor recordings.</strong> When you choose Monitor mode, the computer app saves video clips (and a small thumbnail of each) to a folder on that computer: by default <code>Videos\Kickstand Cam</code> on Windows and <code>Movies/Kickstand Cam</code> on Mac. You choose how long they are kept (by default 30 days or 20 GB, whichever comes first). Kickstand Cam deletes only the clips it recorded. The phone does not keep a copy.</li>
+        <li><strong>Scans and text.</strong> Document scanning and text recognition (OCR) run on your iPhone. The result is sent to your computer, which saves files to a folder you choose (by default <code>Documents\Kickstand Cam Scans</code> on Windows and <code>Documents/Kickstand Cam Scans</code> on Mac) or copies text to the clipboard. If you turn on “type into the focused app”, the computer types the scanned value into the app you are using. The phone deletes its temporary copy as soon as the computer answers, whether the transfer worked or not, and clears any leftovers the next time the app opens.</li>
+        <li><strong>No account, no sign-in.</strong> You pair devices by scanning a code shown on your computer.</li>
+        <li><strong>Device keys.</strong> Each phone and computer creates its own security key. Keys stay on the device they were made on (iPhone and Mac Keychain; Windows protected key storage) and are used only to prove the devices are the ones you paired.</li>
+        <li><strong>Local settings.</strong> The apps store the names of paired devices, their network addresses and your preferences on your own devices.</li>
+        <li><strong>No analytics, advertising, or tracking.</strong> The apps contain no third-party SDKs that collect data. If you agree to share crash reports with Apple in your iPhone settings, Apple may pass anonymous crash data to us; we use it only to fix bugs.</li>
+      </ul>
+
+      <h2 id="permissions">Permissions</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Permission</th><th scope="col">Why</th></tr></thead>
+          <tbody>
+            <tr><td>Camera (iPhone)</td><td>To capture the video, scans and barcodes you send to your computer, and to scan the pairing code. Used only while the app is open.</td></tr>
+            <tr><td>Local Network (iPhone)</td><td>To find and connect to your computer on the same Wi-Fi.</td></tr>
+            <tr><td>Windows firewall rule / macOS camera extension</td><td>To receive the phone’s video and present it as a webcam on your computer.</td></tr>
+            <tr><td>Notifications (computer)</td><td>To tell you when motion is detected or a scan arrives. You can turn these off.</td></tr>
+            <tr><td>Accessibility (Mac, optional)</td><td>Only if you turn on “type into the focused app” for barcodes.</td></tr>
+            <tr><td>Apple Devices / iTunes (Windows, optional)</td><td>Apple’s own software that lets the computer reach the phone over a USB cable. Kickstand Cam does not install it.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="diagnostics">Diagnostics</h2>
+      <p>The computer apps keep a short local log file to help troubleshoot connection problems. It contains connection events, device names and the names of saved files, never images, video or scanned text. It stays on your computer unless you choose to send it to us.</p>
+
+      <h2 id="children">Children</h2>
+      <p>The apps are not directed at children and collect no personal information from anyone.</p>
+
+      <h2 id="contact">Contact</h2>
+      <p>Questions: <span class="placeholder">[[contact email]]</span></p>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <a class="brand" href="../"><img src="../assets/icon-256.png" alt="" width="32" height="32">Kickstand Cam</a>
+    <nav aria-label="Footer">
+      <a href="../setup/">Setup</a>
+      <a href="../support/">Support</a>
+      <a href="./">Privacy policy</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

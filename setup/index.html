@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Set up Kickstand Cam</title>
+  <meta name="description" content="Install Kickstand Cam on Windows or Mac, approve the Mac camera extension, and pair your iPhone with a QR code.">
+  <meta name="theme-color" content="#0d1016">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="../"><img src="../assets/icon-256.png" alt="" width="32" height="32">Kickstand Cam</a>
+    <ul class="nav-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="./" aria-current="page">Setup</a></li>
+      <li><a href="../support/">Support</a></li>
+      <li><a href="../privacy/">Privacy</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap page-head">
+    <h1>Set up Kickstand Cam</h1>
+    <p>Install the app on your computer, pair your iPhone once, and from then on just open Kickstand Cam on the phone.</p>
+    <ul class="toc">
+      <li><a href="#install">1. Install</a></li>
+      <li><a href="#mac">2. Mac: allow the camera</a></li>
+      <li><a href="#pair">3. Pair</a></li>
+      <li><a href="#use">4. Use it</a></li>
+      <li><a href="#cable">USB cable</a></li>
+      <li><a href="#updating">After updating</a></li>
+    </ul>
+  </div>
+
+  <div class="wrap article">
+    <div class="prose">
+      <h2 id="install">1. Install the computer app</h2>
+      <h3>Windows 11</h3>
+      <ol class="steps">
+        <li><a href="../#download">Download the Windows installer</a> and run it. It asks for administrator permission once, because it registers the Kickstand Cam camera for every app on the PC.</li>
+        <li>The installer adds a Windows Firewall rule for Kickstand Cam on <strong>private</strong> networks, so the phone can reach the PC over Wi-Fi. If your Wi-Fi is set to <em>Public</em> in Windows, switch it to <em>Private</em>.</li>
+        <li>Kickstand Cam lives in the system tray. Click its icon to open the window.</li>
+      </ol>
+
+      <h3>Mac (macOS 13 or later)</h3>
+      <ol class="steps">
+        <li><a href="../#download">Download the DMG</a>, open it, and drag <strong>Kickstand Cam</strong> into your <strong>Applications</strong> folder. The camera only works when the app is in Applications.</li>
+        <li>Open Kickstand Cam from Applications. It runs in the menu bar.</li>
+      </ol>
+
+      <h2 id="mac">2. Mac: allow the camera extension</h2>
+      <p>On a Mac, Kickstand Cam adds its camera through a camera extension, and macOS asks you to allow it once.</p>
+      <ol class="steps">
+        <li>When Kickstand Cam asks, click <strong>Open System Settings</strong>.</li>
+        <li>On macOS 15 and later, go to <strong>System Settings › General › Login Items &amp; Extensions › Camera Extensions</strong>, switch on <strong>Kickstand Cam</strong>, and enter your password.</li>
+        <li>On macOS 13 and 14, go to <strong>System Settings › Privacy &amp; Security</strong>, find the message that system software was blocked, and click <strong>Allow</strong>.</li>
+      </ol>
+      <div class="callout">
+        <p><strong>Using the macOS firewall?</strong> If the firewall is on, allow Kickstand Cam in <strong>System Settings › Network › Firewall › Options</strong> before pairing. Without that, the phone can’t connect. You may need to do this again after installing a new version.</p>
+      </div>
+
+      <h2 id="pair">3. Pair your iPhone</h2>
+      <p>Put the iPhone on the <strong>same Wi-Fi network</strong> as the computer. Pairing uses a QR code and a matching code on both screens, so only your own phone can be added.</p>
+      <ol class="steps">
+        <li><strong>On the computer, choose Pair a phone.</strong> On Windows it’s in the Kickstand Cam window; on Mac it’s in the menu-bar menu or in Settings › Phones. A QR code appears. It’s valid for 2 minutes.</li>
+        <li><strong>On the iPhone, open Kickstand Cam and tap Pair</strong>, then point the camera at the QR code. Allow camera and local network access when iOS asks. Can’t scan? Copy the pairing link on the computer and tap Paste on the phone.</li>
+        <li><strong>Check the codes.</strong> Both screens show the same 6-digit code. If they match, click <strong>Approve</strong> on the computer within a minute. If they don’t, tap Cancel on the phone and click Reject.</li>
+      </ol>
+      <div class="shot-row">
+        <figure class="window"><img src="../assets/win-approve.webp" alt="Kickstand Cam for Windows asking to approve an iPhone, showing the code 232 244" width="1160" height="769" loading="lazy"><figcaption>Approve on the computer when the codes match.</figcaption></figure>
+        <figure class="phone"><img src="../assets/ios-pair-code.webp" alt="Kickstand Cam on iPhone showing the pairing code and waiting for approval" width="600" height="1304" loading="lazy"></figure>
+      </div>
+
+      <h2 id="use">4. Use it</h2>
+      <ul>
+        <li><strong>Webcam:</strong> open Kickstand Cam on the iPhone, then choose the camera named <strong>Kickstand Cam</strong> in your video app (Zoom, Teams, Meet, OBS, FaceTime and others).</li>
+        <li><strong>Monitor:</strong> switch the phone to Monitor. The computer records clips and alerts you to motion; find them on its Monitor page.</li>
+        <li><strong>Scan:</strong> switch the phone to Scan. Documents arrive as files on the computer, and text and barcodes go to its clipboard.</li>
+      </ul>
+      <p>Keep the app open on the iPhone while you use it: iOS doesn’t let apps use the camera in the background. Next time, just open the app and it reconnects to your computer.</p>
+
+      <h2 id="cable">Using a USB cable</h2>
+      <p>A cable is optional. It keeps the phone charging and the connection steady, which helps most for all-day monitoring.</p>
+      <ul>
+        <li>Pair over Wi-Fi first. The cable works for phones that are already paired.</li>
+        <li>When you plug in the phone, tap <strong>Trust This Computer</strong> on the iPhone if it asks.</li>
+        <li><strong>Windows:</strong> install <strong>Apple Devices</strong> from the Microsoft Store (or iTunes). Kickstand Cam tells you if it’s missing. Wi-Fi keeps working without it.</li>
+        <li><strong>Mac:</strong> nothing extra to install.</li>
+        <li>With the app open on the phone, the cable takes over from Wi-Fi within a few seconds, and the phone shows <strong>Cable</strong>. Unplug it and it goes back to Wi-Fi.</li>
+      </ul>
+
+      <h2 id="updating">After updating</h2>
+      <div class="callout info">
+        <p>After updating, <strong>quit and reopen your camera app</strong> (FaceTime, Zoom and so on). Apps that were open during the update can keep an old camera list. On a Mac, <strong>restart the Mac if Kickstand Cam doesn’t appear</strong>.</p>
+      </div>
+      <p>Still stuck? See <a href="../support/">Support</a>.</p>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <a class="brand" href="../"><img src="../assets/icon-256.png" alt="" width="32" height="32">Kickstand Cam</a>
+    <nav aria-label="Footer">
+      <a href="./">Setup</a>
+      <a href="../support/">Support</a>
+      <a href="../privacy/">Privacy policy</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

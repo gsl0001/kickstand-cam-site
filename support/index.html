@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kickstand Cam Support</title>
+  <meta name="description" content="Help with Kickstand Cam: pairing, connection, the Mac camera extension, the USB cable, recordings and scans.">
+  <meta name="theme-color" content="#0d1016">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="../"><img src="../assets/icon-256.png" alt="" width="32" height="32">Kickstand Cam</a>
+    <ul class="nav-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="../setup/">Setup</a></li>
+      <li><a href="./" aria-current="page">Support</a></li>
+      <li><a href="../privacy/">Privacy</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap page-head">
+    <h1>Support</h1>
+    <p>Answers to the common questions. New here? Start with the <a href="../setup/">setup guide</a>.</p>
+  </div>
+
+  <div class="wrap article">
+    <div class="prose">
+      <div class="callout info">
+        <p><strong>Contact:</strong> <span class="placeholder">[[contact email]]</span><br>
+        <span class="muted">Tell us your iPhone model and iOS version, your computer (Windows 11 or macOS version), and whether you use Wi-Fi or a cable.</span></p>
+      </div>
+
+      <h2 id="connecting">Connecting and pairing</h2>
+      <details>
+        <summary>The iPhone can’t find or reach my computer</summary>
+        <div>
+          <ul>
+            <li>Put the phone and the computer on the <strong>same Wi-Fi network</strong>.</li>
+            <li>On the iPhone, make sure Kickstand Cam is allowed <strong>Local Network</strong> access (iPhone Settings › Kickstand Cam).</li>
+            <li><strong>Windows:</strong> the installer allows Kickstand Cam through Windows Firewall on private networks. If Windows treats your Wi-Fi as <em>Public</em>, switch it to <em>Private</em>.</li>
+            <li><strong>Mac:</strong> if the macOS firewall is on, allow Kickstand Cam in System Settings › Network › Firewall › Options. A newly installed version may need allowing again.</li>
+            <li>Keep the app open on the iPhone. iOS doesn’t let apps use the camera in the background.</li>
+          </ul>
+        </div>
+      </details>
+      <details>
+        <summary>Pairing says the code expired, was already used, or timed out</summary>
+        <div>
+          <p>Each QR code is valid for 2 minutes and works once. After the phone scans it, the computer has a minute to approve. If any of these runs out, choose <strong>Pair a phone</strong> on the computer again and scan the new code.</p>
+        </div>
+      </details>
+      <details>
+        <summary>The 6-digit codes on the phone and the computer don’t match</summary>
+        <div>
+          <p>Don’t approve it. Tap Cancel on the phone and click Reject on the computer, then start again. Matching codes show that the phone talking to your computer is really yours.</p>
+        </div>
+      </details>
+      <details>
+        <summary>How do I remove a phone or a computer?</summary>
+        <div>
+          <ul>
+            <li><strong>Windows:</strong> open the Phones page in Kickstand Cam and remove the phone.</li>
+            <li><strong>Mac:</strong> Settings › Phones › Remove.</li>
+            <li><strong>iPhone:</strong> open Computers and swipe left on the computer.</li>
+          </ul>
+          <p>A removed phone is disconnected at once and has to be paired again to reconnect.</p>
+        </div>
+      </details>
+
+      <h2 id="camera">The camera</h2>
+      <details>
+        <summary>Kickstand Cam doesn’t show up in my video app</summary>
+        <div>
+          <ul>
+            <li><strong>Quit and reopen the video app.</strong> Apps that were open while Kickstand Cam was installed or updated can keep an old camera list.</li>
+            <li><strong>Mac:</strong> check that the app is in your Applications folder and that the camera extension is allowed (see <a href="../setup/#mac">setup</a>). Restart the Mac if Kickstand Cam still doesn’t appear.</li>
+            <li><strong>Windows:</strong> Kickstand Cam needs Windows 11 (22H2 or later). Windows 10 is not supported.</li>
+          </ul>
+        </div>
+      </details>
+      <details>
+        <summary>My video app shows a waiting picture instead of video</summary>
+        <div>
+          <p>The camera shows a waiting picture whenever no live video is arriving, so it never freezes on an old frame. Check that:</p>
+          <ul>
+            <li>Kickstand Cam is open on the iPhone and connected to this computer;</li>
+            <li>the video isn’t paused on the phone or on the computer;</li>
+            <li>the phone isn’t too hot. If it overheats, Kickstand Cam first lowers the quality and then pauses, and the phone shows why.</li>
+          </ul>
+        </div>
+      </details>
+      <details>
+        <summary>Which resolution does it use?</summary>
+        <div>
+          <p>720p at 30 frames per second, H.264. In Monitor mode you can lower it to 15 frames per second to save power.</p>
+        </div>
+      </details>
+
+      <h2 id="cable">USB cable</h2>
+      <details>
+        <summary>The phone stays on Wi-Fi when I plug in a cable</summary>
+        <div>
+          <ul>
+            <li>Pair the phone over Wi-Fi first. The cable is for phones that are already paired.</li>
+            <li>Tap <strong>Trust This Computer</strong> on the iPhone when it asks.</li>
+            <li><strong>Windows:</strong> install <strong>Apple Devices</strong> from the Microsoft Store (or iTunes). Kickstand Cam shows a message when it’s missing.</li>
+            <li>Keep the app open on the iPhone. When the cable is in use, the phone shows <strong>Cable</strong>.</li>
+          </ul>
+        </div>
+      </details>
+
+      <h2 id="files">Recordings and scans</h2>
+      <details>
+        <summary>Where are my recordings?</summary>
+        <div>
+          <p>On the computer, in <code>Videos\Kickstand Cam</code> on Windows and <code>Movies/Kickstand Cam</code> on Mac. You can also browse them on the Monitor page. Clips are kept for 30 days or up to 20 GB by default; you can change both. Kickstand Cam only ever deletes clips it recorded.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Where do scans go?</summary>
+        <div>
+          <p>Files go to <code>Documents\Kickstand Cam Scans</code> on Windows and <code>Documents/Kickstand Cam Scans</code> on Mac, or to a folder you choose. Recognized text and barcodes go to the clipboard. You can also have barcodes typed into the app you’re using; on a Mac that needs Accessibility permission (System Settings › Privacy &amp; Security › Accessibility › Kickstand Cam).</p>
+        </div>
+      </details>
+
+      <h2 id="mac-uninstall">Removing Kickstand Cam from a Mac</h2>
+      <p>Open Kickstand Cam’s Settings › Webcam and click <strong>Uninstall Camera Extension</strong>, then move the app from Applications to the Trash.</p>
+
+      <h2 id="privacy">Privacy</h2>
+      <p>Kickstand Cam has no account and no server; nothing you capture is sent to us. Read the full <a href="../privacy/">privacy policy</a>.</p>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <a class="brand" href="../"><img src="../assets/icon-256.png" alt="" width="32" height="32">Kickstand Cam</a>
+    <nav aria-label="Footer">
+      <a href="../setup/">Setup</a>
+      <a href="./">Support</a>
+      <a href="../privacy/">Privacy policy</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
