@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["B4P372QR33.com.gsl0001.cameratopc"],
+        "components": [
+          { "/": "/pair", "comment": "Pairing link from the computer's QR code; the invite is in the #fragment" },
+          { "/": "/pair/*", "comment": "Same, with a trailing slash" }
+        ]
+      }
+    ]
+  }
+}
